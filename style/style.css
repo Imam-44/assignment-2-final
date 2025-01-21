@@ -1,1 +1,120 @@
+/* Font link */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shered style start here */
+li {
+  list-style: none;
+}
+.primary-btn{
+  width: 197px;
+  height: 50px;
+  padding: 10px;
+  /* margin: 0 10px; */
+  border-radius: 12px;
+  background-color: orange;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+} 
+.btn-black{
+  background-color: black;
+}
+
+ /* nav style start here */
+.nav-style{
+  /* width: 100%; */
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 62px;
+  height: 62px;
+ 
+}
+.logo > h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+.list-item{
+  display: flex;
+  
+}
+.list-item > li {
+  margin: 0 32px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.item-1{
+  color: orange;
+ }
+ .item-2{
+   color: skyblue;
+ }
+ .item-3{
+   color: #05D4DF;
+ }
+ .item-4{
+   color: #5D58EF;
+ }
+ .menu-icon-style{
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* navbar end here */
+ /* horizontal line */
+.hr-line{
+  max-width: 100%;
+  border: none;
+ /* padding: 2px; */
+  display: none;
+  border-top: 1px solid orange;
+  
+}
+/* hr end here */
+/* responsive start here */
+@media screen and (max-width: 576px) {
+  
+  /* navbar responsive start here */
+    .list-item{
+      display: none;
+    }
+    
+    .menu-icon-style{
+      display: block;
+  
+    }
+    .nav-btn{
+      display: none;
+    }
+    /* nav responsive end */
+    /* hr responsive start */
+    .hr-line {
+      display: block;
+    }
+    /* hr responsive end */}
