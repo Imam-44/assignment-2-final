@@ -97,6 +97,35 @@ li {
   
 }
 /* hr end here */
+/* header style start here */
+.header{
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  }
+  .header-title{
+    font-weight: bold;
+    font-size: 56px;
+    color: black;
+    margin-top: 100px;
+  }
+  .orange-head{
+    color: orange;
+  }
+  .blue-head{
+    color: #01ACFD;
+  }
+  .header-description{
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  .header-btn{
+    margin-top: 10px;
+  }
+  /* header style end here */
 /* responsive start here */
 @media screen and (max-width: 576px) {
   
@@ -117,4 +146,30 @@ li {
     .hr-line {
       display: block;
     }
-    /* hr responsive end */}
+    /* hr responsive end */
+      /* header responsive */
+  .header{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .left-header{
+    margin-top: 20px;
+  }
+  .header-title{
+    text-align: center;
+    /* line-height: auto; */
+    font-size: 42px;
+  }
+  .header-description{
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .right-header img{
+  
+    max-width: 100%;
+    margin: auto;
+    
+ }
+  }
