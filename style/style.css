@@ -147,29 +147,30 @@ li {
       display: block;
     }
     /* hr responsive end */
-      /* header responsive */
-  .header{
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .left-header{
-    margin-top: 20px;
-  }
-  .header-title{
-    text-align: center;
-    /* line-height: auto; */
-    font-size: 42px;
-  }
-  .header-description{
-    font-weight: 500;
-    font-size: 18px;
-  }
-  .right-header img{
-  
-    max-width: 100%;
-    margin: auto;
+    /* header responsive */
+    .header{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
     
- }
+    .left-header{
+      margin-top: 20px;
+    }
+    .header-title{
+      text-align: center;
+      /* line-height: auto; */
+      font-size: 42px;
+    }
+    .header-description{
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .right-header img{
+    
+       max-width: 100%;
+      /* height: auto;  */
+      margin: auto;
+       /* display: block;  */
+    }
   }
