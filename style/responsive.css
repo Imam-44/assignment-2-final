@@ -48,7 +48,7 @@
       margin: 0 auto;
     }
 
-    
+
     /* curriculum responsive start here */
     .card-section{
       max-width: 90%;
@@ -61,7 +61,7 @@
 
    /* stories responsive start here */
    .stories-card-section{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .part-1{

@@ -244,22 +244,22 @@ li {
 }
 .small-section{
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 4fr);
   gap: 10px;
 }
 .stories-card-btn{
-  max-width: 170px;
-  height: 47.93px;
-  padding: 0 20px;
+  max-width: 10.6rem;
+  height: 2.9rem;
+  padding: 0 1rem;
   border-radius: 47.93px;
   background-color: #3CD8E8;
   color: white;
   border: none;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 500;
   position: relative;
-  top: -30px;
-  left: 40px;
+  top: -2rem;
+  left: 1.3rem;
   cursor: pointer;
 }
 
