@@ -130,7 +130,7 @@ li {
 .curriculum{
   max-width: 1160px;
   margin: 0 auto;
-  
+  background-image: url(/images/bg.png);
 }
 .section-title{
   text-align: center;
