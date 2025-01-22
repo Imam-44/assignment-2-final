@@ -35,6 +35,15 @@ li {
   background-color: black;
 }
 
+/* Marquee style start here */
+.marquee-text{
+  width: 100%;
+  color: black;
+  height: 30px;
+  font-family: "Quicksand", serif;
+  font-size: 18px;
+  background-color: skyblue;
+ }    
  /* nav style start here */
 .nav-style{
   /* width: 100%; */
