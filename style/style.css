@@ -248,18 +248,33 @@ li {
   gap: 10px;
 }
 .stories-card-btn{
-  max-width: 10.6rem;
+  max-width: 170px;
   height: 47.93px;
   padding: 0 20px;
   border-radius: 47.93px;
   background-color: #3CD8E8;
   color: white;
   border: none;
-  font-size: 0.9rem;
+  font-size: 15px;
   font-weight: 500;
   position: relative;
-  top: -2rem;
-  left: 1.3rem;
+  top: -30px;
+  left: 40px;
+  cursor: pointer;
+}
+.stories-card-btn-small{
+  max-width: 149px;
+  height: 37.93px;
+  padding: 0 10px;
+  border-radius: 37.93px;
+  background-color: #3CD8E8;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: -25px;
+  left: 10px;
   cursor: pointer;
 }
 
