@@ -130,7 +130,7 @@ li {
 .curriculum{
   max-width: 1160px;
   margin: 0 auto;
-  background-image: url(/images/bg.png);
+  background-image: url(../images/bg.png);
 }
 .section-title{
   text-align: center;
@@ -199,59 +199,80 @@ li {
 .card-btn3-color{
   color: #8700FF;
 }
+.curriculum-btn{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.radius-btn{
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ border: none;
+ background-color: orange;
+ color: white;
+ font-size: 25px;
+ cursor: pointer;
+ 
+}
+/* footer style start here */
+.footer-section{
+  background-color: #01ACFD;
+  margin-top: 50px;
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* overflow: hidden; */
+  /* box-sizing: border-box;  */
+}
+.all-footer-content{
+  max-width: 1160px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+.foot-left{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 10px;
+}
+.foot-left img {
+  color: white;
+  width: 82px;
+  height: 80px;
+  margin-top: 28px;
+}
+.foot-left-title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 35px;
+}
+.foot-left-description{
+  font-size: 20px;
+  color: #fff;
+}
 
-/* responsive start here */
-@media screen and (max-width: 576px) {
-  
-/* navbar responsive start here */
-  .list-item{
-    display: none;
-  }
-  
-  .menu-icon-style{
-    display: block;
 
-  }
-  .nav-btn{
-    display: none;
-  }
-  /* nav responsive end */
-  /* hr responsive start */
-  .hr-line {
-    display: block;
-  }
-  /* hr responsive end */
-  /* header responsive */
-  .header{
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .left-header{
-    margin-top: 20px;
-  }
-  .header-title{
-    text-align: center;
-    /* line-height: auto; */
-    font-size: 42px;
-  }
-  .header-description{
-    font-weight: 500;
-    font-size: 18px;
-  }
-  .right-header img{
-  
-     max-width: 100%;
-    /* height: auto;  */
-    margin: auto;
-     /* display: block;  */
-  }
-  /* curriculum responsive start here */
-  .card-section{
-    max-width: 100%;
-    margin: auto;
-    padding: 0 30px;
-    grid-template-columns: repeat(1, 1fr);
-  }
+.foot-list-title{
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+}
+.footer-content>li{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.foot-right-title{
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.foot-icon{
+ 
+  cursor: pointer;
 }

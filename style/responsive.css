@@ -1,0 +1,68 @@
+
+/* responsive start here */
+@media screen and (max-width: 576px) {
+  
+  /* navbar responsive start here */
+    .list-item{
+      display: none;
+    }
+    
+    .menu-icon-style{
+      display: block;
+  
+    }
+    .nav-btn{
+      display: none;
+    }
+    /* nav responsive end */
+    /* hr responsive start */
+    .hr-line {
+      display: block;
+    }
+    /* hr responsive end */
+    /* header responsive */
+    .header{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .left-header{
+      margin-top: 20px;
+    }
+    .header-title{
+      text-align: center;
+      /* line-height: auto; */
+      font-size: 42px;
+    }
+    .header-description{
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .right-header img{
+    
+       max-width: 100%;
+      /* height: auto;  */
+      margin: auto;
+       /* display: block;  */
+    }
+    /* curriculum responsive start here */
+    .card-section{
+      max-width: 100%;
+      margin: auto;
+      padding: 0 30px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .radius-btn{
+      margin-top: 30px;
+    }
+    /* footer responsive */
+    .all-footer-content{
+      
+      grid-template-columns: 1fr;
+      gap: 30px;
+      width: 100%;
+      padding: 30px; 
+      }
+    
+  }
